@@ -1,0 +1,82 @@
+h1 {
+    font-weight: lighter;
+    font-size: 2.5em;
+}
+form {
+    padding: 2em;
+    width: 15em;
+}
+form > div {
+    padding: 0.5em;
+    width: 100%;
+}
+form > div > * {
+    display: block;
+}
+form span {
+    font-size: 0.8em;
+}
+form input {
+    width: 100%;
+    border-bottom: 2px solid #212121;
+    font-size: 1.2em;
+    outline: none;
+    padding: 0.2em;
+}
+form input:focus {
+    border-bottom: 2px solid #4d7cfc;
+}
+form button {
+    background: #4d7cfc;
+    color: #FFF;
+    padding: 1em;
+    width: 49%;
+    border-radius: 0.5em;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+}
+form button:hover {
+    background: #bdcfff;
+    color: #000;
+}
+table {
+    width: 60%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+td {
+    box-sizing: border-box;
+    padding: 0.2em;
+}
+td:nth-child(1) {
+    width: 10%;
+}
+td:nth-child(2) {
+    width: 15%;
+}
+td:nth-child(3) {
+    width: 15%;
+}
+td:nth-child(4) {
+    width: 15%;
+}
+td:nth-child(5) {
+    width: 15%;
+}
+td:nth-child(6) {
+    width: 20%;
+}
+td:nth-child(6) {
+    width: 10%;
+}
+td:nth-child(6) {
+    width: 10%;
+}
+thead {
+    background: #a85155;
+    color: #FFF;
+}
+form, table {
+    display: inline-block;
+    vertical-align: top;
+}

@@ -1,0 +1,28 @@
+#home h1 {
+    font-weight: lighter;
+    font-size: 3em;
+}
+#home img {
+    width: 15em;
+    margin-top: 8em;
+    
+}
+#home {
+    text-align: center;
+    margin: 0 auto;
+    animation-name: animationLogo;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes animationLogo {
+    0% {
+        transform: scale(2);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
